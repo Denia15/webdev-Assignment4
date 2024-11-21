@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EBA6A9;
+}
+
+header {
+    background: #C2EABD;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: #264653;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact {
+    padding: 3rem;
+    text-align: center;
+    background-color: #EBA6A9;
+}
+
+.contact h1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    color: #264653;
+    margin-bottom: 1.5rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #264653;
+}
+
+.contactForm {
+    padding: 5rem;
+    text-align: center;
+    background-color: #EBA6A9;
+}
+
+.contactForm label {
+    font-size: 1.2rem;
+    color: #264653;
+}
+
+.contactForm input, 
+.contactForm textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #264653;
+}
+
+.contactForm button {
+    padding: 0.8rem 2rem;
+    background-color: #9B7E46;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactForm button:hover {
+    background-color: #264653;
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #C2EABD;
+    color: #264653;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #9B7E46;
+    color: white;
+}
+
+footer {
+    background-color: #9B7E46;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}

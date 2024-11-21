@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EBA6A9;
+}
+
+header {
+    background: #C2EABD;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: #264653;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.thank-you {
+    padding: 3rem;
+    text-align: center;
+    background-color: #EBA6A9;
+}
+
+.thank-you h1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    color: #264653;
+    margin-bottom: 1.5rem;
+}
+
+.thank-you p {
+    font-size: 1.2rem;
+    color: #264653;
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #C2EABD;
+    color: #264653;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #9B7E46;
+    color: white;
+}
+
+footer {
+    background-color: #9B7E46;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
