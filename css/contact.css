@@ -55,8 +55,7 @@ header .nav-links a {
     color: #264653;
 }
 
-.contactForm input, 
-.contactForm textarea {
+.contactForm input, .contactForm textarea {
     width: 100%;
     padding: 0.8rem;
     margin: 0.5rem 0;
